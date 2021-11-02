@@ -1,3 +1,4 @@
+//A program to print a receipt of grocery using Vectors and Strings.
 struct Grocery{
     Name : String,
     Number_of_items : i32,
