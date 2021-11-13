@@ -8,7 +8,7 @@ fn main(){}
 #[cfg(test)]
 mod testing
 {
-    use crate:: *;
+    use crate:: *;//Uses the function out of this testing module's scope.
     #[test]
     fn checks(){
         let result = capitalise("environment");
