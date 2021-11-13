@@ -1,3 +1,4 @@
+// A program to test a function.
 fn capitalise(input : &str)->String
 {
     input.to_uppercase()
