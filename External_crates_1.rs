@@ -1,4 +1,5 @@
 //A program using human time crate.
+// This program will print the provided time in human readable manner.
 use std::time::Duration;
 use humantime::format_duration;
 
