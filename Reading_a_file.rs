@@ -13,5 +13,5 @@ fn main() {
 
     let contents=fs::read_to_string("poem.txt")//Read the entire contents of the file into a string.
                 .expect("Something went wrong in reading the file");
-    println!("With text :\n{}",contents);//prints the contents in the file.dbg!
+    println!("With text :\n{}",contents);//prints the contents in the file.
 }
