@@ -1,4 +1,4 @@
-//(main.rs)A Program that prints the contents of the provided file.
+//(main.rs)A Program that prints the contents of the provided file matched with the query provided in command line.
 use std::env;
 use std::process;
 use minigrep::Config;
